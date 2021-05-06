@@ -24,8 +24,7 @@ public class KMToMConverter implements Convertible {
     /** Convert  km to m.*/
     public void convert(){
         convertedValue=(originalValue*1000);
-        System.out.println("Test");
-        //hesd
+ 
     }
 
 }
