@@ -2,6 +2,8 @@ package edu.handong.csee.java.hw2.converters;
 /**
 This class is made to convert km to m.
 
+Updated for github.
+
  */
 public class KMToMConverter implements Convertible {
 
@@ -22,6 +24,8 @@ public class KMToMConverter implements Convertible {
     /** Convert  km to m.*/
     public void convert(){
         convertedValue=(originalValue*1000);
+        System.out.println("Test");
+        //hesd
     }
 
 }
